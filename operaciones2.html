@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="efectos.css" rel="stylesheet" type="text/css">
+	<title>Operaciones</title>
+	<script src="prog02_botones.js" type="text/JavaScript"> </script>
+</head>
+<body><center>
+	<h1 class="encabezado">Operaciones Básicas</h1>
+	<table border="3" width="60%">
+		<form name="datos">
+			<tr align="center">
+				<td><p>Indica el primer valor</p></td>
+				<td><input name="v1" type="number" class="campo"> </td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica el segundo valor</p></td>
+				<td><input name="v2" type="number" class="campo"></td>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<table width="100%">
+				<tr align="center">
+				<td><p>El resultado es</p></td>
+				<td><input name="opera" type="text" class="campo" disabled="true" style="background-color:lightgray;"></td>
+				<td><input name="res" type="number" class="campo" disabled="true" style="background-color:lightgray;"></td> 
+			</tr>
+	</table>
+</td>
+</tr>
+<tr align="center">
+	<td><p>Selecciona la opción deseada</p></td>
+	<td>
+		<table width="60%">
+			<tr align="center">
+				<td><input name="op" type="radio" value="1"></td>
+			<td><p>Suma</p></td>
+		</tr>
+		<tr align="center">
+				<td><input name="op" type="radio" value="2"></td>
+			<td><p>Resta</p></td>
+		</tr>
+		<tr align="center">
+				<td><input name="op" type="radio" value="3"></td>
+			<td><p>Multiplicación</p></td>
+		</tr>
+		<tr align="center">
+				<td><input name="op" type="radio" value="4"></td>
+			<td><p>División</p></td>
+		</tr>
+<tr align="center">
+				<td><input name="b_ejecuta" type="button" class="boton_azul" value="Ejecutar" onClick="ejecutar()" ></td>
+				<td><input name="b_reset" type="reset" class="boton_azul" value="Reset" ></td>
+</td>
+</form>
+</table>
+</center>
+</body>
+</html>
+
